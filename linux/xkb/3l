@@ -103,15 +103,15 @@ xkb_symbols "basic" {
     };
     key <AD07> {
         [ k,                       K,                       less,                    Greek_psi               ],
-        [ 7,                       NoSymbol                  ]
+        [ 1,                       NoSymbol                  ]
     };
     key <AD08> {
         [ c,                       C,                       greater,                 Greek_gamma             ],
-        [ 8,                       NoSymbol                  ]
+        [ 2,                       NoSymbol                  ]
     };
     key <AD09> {
         [ w,                       W,                       equal,                   Greek_phi               ],
-        [ 9,                       NoSymbol                  ]
+        [ 3,                       NoSymbol                  ]
     };
     key <AD10> {
         [ b,                       B,                       ampersand,               U03D5                   ],
@@ -221,16 +221,16 @@ xkb_symbols "basic" {
     };
     key <AB07> {
         [ l,                       L,                       percent,                 Greek_mu                ],
-        [ 1,                       NoSymbol                  ]
+        [ 7,                       NoSymbol                  ]
     };
     key <AB08> {
         [ p,                       P,                       backslash,               Greek_beta              ],
-        [ 2,                       NoSymbol                  ]
+        [ 8,                       NoSymbol                  ]
     };
     key.type[Group1] = "FOUR_LEVEL";
     key <AB09> {
         [ v,                       V,                at,                      Greek_mu                ],
-        [ 3,                       NoSymbol                  ]
+        [ 9,                       NoSymbol                  ]
     };
 
     key <AB10> {
