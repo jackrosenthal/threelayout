@@ -18,8 +18,8 @@ xkb_symbols "basic" {
     // Number row
     // --------------------------------------------------------------
     key <TLDE> {
-        [ F30,                     F30,              F30,                   F30                   ],
-        [ F30,                     F30                  ]
+        [ NoSymbol,                 NoSymbol,               NoSymbol,                NoSymbol                ],
+        [ NoSymbol,                 NoSymbol                 ]
     };
 
     key <AE01> {
