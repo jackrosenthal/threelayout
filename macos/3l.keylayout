@@ -57,7 +57,7 @@
             <key code="45" action="g"/>
             <key code="46" action="l"/>
             <key code="47" action="v"/>
-            <key code="48" output="&#x001B;"/>
+            <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
