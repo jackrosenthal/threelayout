@@ -1660,7 +1660,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "optional": [
                                             "any"
