@@ -8,15 +8,21 @@
 (See the `docs` directory for full images of the layout.)
 
 ## Installation
+
 ### Arch Linux
+
 Install the [`threelayout`](https://aur.archlinux.org/packages/threelayout)
 package from the AUR.
 
-### macOS
+### Mac OS X¹
+
 1. Install [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements).
-2. Copy the `karabiner.json` file from the `macos` directory to the
+2. Copy the `karabiner.json` file from the `macosx` directory to the
    `~/.config/karabiner/` directory.
 3. Select the `3l` profile from Karabiner Elements.
 
+¹Of course, this can be used to refer to "OS X" and "macOS" as well.
+
 ### Windows
+
 Use the AHK script.
