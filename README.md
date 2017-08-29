@@ -27,14 +27,17 @@ either:
 
 1. Run `setxkbmap 3l` to set the layout tempoarily
 2. Or add a section to your X11 configuration that specifies `3l` as the
-   default keyboard layout. An example of this configuration is shown below.
+   default keyboard layout. Here is an example of this configuration:
 
-    $ cat /etc/X11/xorg.conf.d/00-keyboard.conf
-    Section "InputClass"
-            Identifier "system-keyboard"
-            MatchIsKeyboard "on"
-            Option "XkbLayout" "3l"
-    EndSection
+        $ cat /etc/X11/xorg.conf.d/99-keyboard.conf
+        Section "InputClass"
+                Identifier "system-keyboard"
+                MatchIsKeyboard "on"
+                Option "XkbLayout" "3l"
+        EndSection
+
+    `systemd` has the `localectl` utility that you may optionally use to
+    maintain this configuration file.
 
 There may also be a package for `3l` in your distribution. There is at least an
 Arch Linux AUR package available under
