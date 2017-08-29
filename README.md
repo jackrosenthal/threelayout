@@ -1,11 +1,8 @@
 # `3l` - A better modifier based keyboard layout
 
-      normal           shift            sym                 cur/num
-    qfuyzxkcwb      QFUYZXKCWB      "_[]^!<>=&      PU BS UP DL PD      123
-    oheaidrtns      OHEAIDRTNS      /-{}*?()':      HM LF DN RT EN      456
-    ,m.j;glpv        M J GLPV       #$|~`+%\@                          0789
+![Three Layout Reference Image](https://raw.githubusercontent.com/jackrosenthal/threelayout/master/docs/standard_three.png)
 
-(See the `docs` directory for full images of the layout.)
+See the `docs` directory for more images of the layout.
 
 ## Testing the layout without installation
 
