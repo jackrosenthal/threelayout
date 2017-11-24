@@ -1,5 +1,27 @@
 # `3l` - A better modifier based keyboard layout
 
+**Three Layout**, more commonly called `3l`, is an
+[Alternative Keyboard Layout](https://en.wikipedia.org/wiki/Keyboard_layout#Non-QWERTY-based_Latin-script_keyboard_layouts)
+designed for efficently typing not only English, but also computer programs.
+`3l` is modifier based, so many of the keys which would normally be accesed on
+the top row (with numbers on QWERTY) can be accessed on the main part of the
+keyboard.
+
+To give you an idea on how much this layout can improve your typing efficency,
+compare typing distance of George Orwell's _Nineteen Eighty-Four_ to other
+common layouts:
+
+ * **QWERTY:** 10.4 miles
+ * **Antibracket** (which this keyboard layout was based on): 6.3 miles
+ * **Dvorak:** 6.2 miles
+ * **Colemak:** 5.9 miles
+ * **WULY** (my old layout): 5.6 miles
+ * **`3l`:** 4.9 miles
+
+And typing distance is not the only factor that `3l` optimizes for. `3l` helps
+**increase finger alternation**, **reduce bottom-to-top row jumps**, **decrease
+lateral motion**, and also strives to be **easy to learn**.
+
 ![Three Layout Reference Image](https://raw.githubusercontent.com/jackrosenthal/threelayout/master/docs/standard_three.png)
 
 See the `docs` directory for more images of the layout.
