@@ -113,5 +113,5 @@ SC034::v
 SC028 & SC034::Send {@}
 SC035 & SC034::Send {9}
 
-RAlt & LAlt::ExitApp
-LAlt & RAlt::ExitApp
+RAlt & LAlt::Suspend
+LAlt & RAlt::Suspend
