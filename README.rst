@@ -50,7 +50,7 @@ Installation
 ------------
 
 Linux
-"""""
+~~~~~
 
 Place the ``linux/xkb/symbols/3l`` file in your system's ``symbols`` directory
 [1]_, then either:
@@ -79,7 +79,7 @@ To create a console mapping from the ``xkb`` symbols file, you can use the
 .. _`threelayout`: https://aur.archlinux.org/packages/threelayout
 
 Mac OS X [2]_
-"""""""""""""
+~~~~~~~~~~~~~
 
 1. Install `Karabiner Elements`_
 2. Copy the ``macosx/karabiner.json`` file to the ``~/.config/karabiner/``
@@ -91,7 +91,7 @@ Mac OS X [2]_
 .. _`Karabiner Elements`: https://github.com/tekezo/Karabiner-Elements
 
 Windows
-"""""""
+~~~~~~~
 
 Place the AHK script in your "Startup" folder.
 
@@ -108,17 +108,37 @@ login, where ``XXX`` is the name of the mod you wish to apply.
 Users are encouraged to submit the mods they find useful in a pull request.
 
 WhackyInsert
-""""""""""""
+~~~~~~~~~~~~
 
 This mod gives you an ``Insert`` key on QWERTY's Whack/Pipe key (above enter).
 Useful on some notebooks which do not have an ``Insert`` key, but also
 convenient on desktop keyboards.
 
 ChromebookSuperTab
-""""""""""""""""""
+~~~~~~~~~~~~~~~~~~
 
 Many Chromebook computers have a ``Super_L`` key that acts as a "search" key in
 Chrome OS where the Caps Lock key should be. As such, when using alternative
 layouts that makes good use of this key, the good use is lost. This mod makes
 the ``Super_L`` act as ``Tab`` for these systems.
 
+Users' Registry
+---------------
+
+This section lists people who have learned to type on ``3l``. Users who learn
+to type at least 15 WPM (that's what it takes to get past the initial learning
+threshold) on ``3l`` can be added to this list. This list is included here so
+you can query typists to see what they like and dislike about the layout before
+you dedicate time to learning, or so you can reach out for learning tips.
+
+* `Jack Rosenthal`__ (Me, who created ``3l`` in the Fall of 2015)
+* `Josh Hoffer`__ (who learned ``3l`` in the Spring of 2017)
+* `Sumner Evans`__ (who learned ``3l`` in the Summer of 2017)
+* `Robert Zampino`__ (who learned ``3l`` in the Spring of 2018)
+
+__ http://inside.mines.edu/~jrosenth
+__ https://github.com/JoshH100
+__ https://github.com/sumnerevans
+__ https://github.com/robozman
+
+If you learn the layout, feel free to submit a PR with your name added.
