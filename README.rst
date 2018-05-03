@@ -133,7 +133,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 
 * `Jack Rosenthal`__ (Me, who created ``3l`` in the Fall of 2015)
 * `Josh Hoffer`__ (who learned ``3l`` in the Spring of 2017)
-* `Sumner Evans`__ (who learned ``3l`` in the Summer of 2017)
+* `Sumner Evans`__ (who learned ``3l`` in the Spring of 2017)
 * `Robert Zampino`__ (who learned ``3l`` in the Spring of 2018)
 
 __ http://inside.mines.edu/~jrosenth
