@@ -1,21 +1,69 @@
-    WARNING: * (U+002a) is already defined more than once on the keyboard (on VK_G, ShiftState 'SGCAPS' and VK_8, ShiftState 'Shift').
-    WARNING: 2 (U+0032) is already defined more than once on the keyboard (on VK_I, ShiftState 'Ctl+Alt' and VK_2, ShiftState 'Base').
-    WARNING: 4 (U+0034) is already defined more than once on the keyboard (on VK_J, ShiftState 'Ctl+Alt' and VK_4, ShiftState 'Base').
-    WARNING: ( (U+0028) is already defined more than once on the keyboard (on VK_J, ShiftState 'SGCAPS' and VK_9, ShiftState 'Shift').
-    WARNING: 5 (U+0035) is already defined more than once on the keyboard (on VK_K, ShiftState 'Ctl+Alt' and VK_5, ShiftState 'Base').
-    WARNING: ) (U+0029) is already defined more than once on the keyboard (on VK_K, ShiftState 'SGCAPS' and VK_0, ShiftState 'Shift').
-    WARNING: 6 (U+0036) is already defined more than once on the keyboard (on VK_L, ShiftState 'Ctl+Alt' and VK_6, ShiftState 'Base').
-    WARNING: 7 (U+0037) is already defined more than once on the keyboard (on VK_M, ShiftState 'Ctl+Alt' and VK_7, ShiftState 'Base').
-    WARNING: 0 (U+0030) is already defined more than once on the keyboard (on VK_N, ShiftState 'Ctl+Alt' and VK_0, ShiftState 'Base').
-    WARNING: % (U+0025) is already defined more than once on the keyboard (on VK_N, ShiftState 'SGCAPS' and VK_5, ShiftState 'Shift').
-    WARNING: 3 (U+0033) is already defined more than once on the keyboard (on VK_O, ShiftState 'Ctl+Alt' and VK_3, ShiftState 'Base').
-    WARNING: & (U+0026) is already defined more than once on the keyboard (on VK_P, ShiftState 'SGCAPS' and VK_7, ShiftState 'Shift').
-    WARNING: ^ (U+005e) is already defined more than once on the keyboard (on VK_T, ShiftState 'SGCAPS' and VK_6, ShiftState 'Shift').
-    WARNING: 1 (U+0031) is already defined more than once on the keyboard (on VK_U, ShiftState 'Ctl+Alt' and VK_1, ShiftState 'Base').
-    WARNING: ! (U+0021) is already defined more than once on the keyboard (on VK_Y, ShiftState 'SGCAPS' and VK_1, ShiftState 'Shift').
-    WARNING: + (U+002b) is already defined more than once on the keyboard (on VK_OEM_PLUS, ShiftState 'Shift' and VK_B, ShiftState 'SGCAPS').
-    WARNING: 8 (U+0038) is already defined more than once on the keyboard (on VK_OEM_COMMA, ShiftState 'Ctl+Alt' and VK_8, ShiftState 'Base').
-    WARNING: @ (U+0040) is already defined more than once on the keyboard (on VK_OEM_COMMA, ShiftState 'SGCAPS' and VK_2, ShiftState 'Shift').
-    WARNING: _ (U+005f) is already defined more than once on the keyboard (on VK_OEM_MINUS, ShiftState 'Shift' and VK_W, ShiftState 'SGCAPS').
-    WARNING: 9 (U+0039) is already defined more than once on the keyboard (on VK_OEM_PERIOD, ShiftState 'Ctl+Alt' and VK_9, ShiftState 'Base').
-    WARNING: x (U+0078) is already defined more than once on the keyboard (on VK_OEM_2, ShiftState 'Base' and VK_Y, ShiftState 'Base').
+    WARNING: 0 (U+0030) is already defined more than once on the keyboard (on VK_0, ShiftState 'Ctl+Alt' and VK_0, ShiftState 'Base').
+    WARNING: 1 (U+0031) is already defined more than once on the keyboard (on VK_1, ShiftState 'Ctl+Alt' and VK_1, ShiftState 'Base').
+    WARNING: 2 (U+0032) is already defined more than once on the keyboard (on VK_2, ShiftState 'Ctl+Alt' and VK_2, ShiftState 'Base').
+    WARNING: 3 (U+0033) is already defined more than once on the keyboard (on VK_3, ShiftState 'Ctl+Alt' and VK_3, ShiftState 'Base').
+    WARNING: 4 (U+0034) is already defined more than once on the keyboard (on VK_4, ShiftState 'Ctl+Alt' and VK_4, ShiftState 'Base').
+    WARNING: 5 (U+0035) is already defined more than once on the keyboard (on VK_5, ShiftState 'Ctl+Alt' and VK_5, ShiftState 'Base').
+    WARNING: 6 (U+0036) is already defined more than once on the keyboard (on VK_6, ShiftState 'Ctl+Alt' and VK_6, ShiftState 'Base').
+    WARNING: 7 (U+0037) is already defined more than once on the keyboard (on VK_7, ShiftState 'Ctl+Alt' and VK_7, ShiftState 'Base').
+    WARNING: 8 (U+0038) is already defined more than once on the keyboard (on VK_8, ShiftState 'Ctl+Alt' and VK_8, ShiftState 'Base').
+    WARNING: 9 (U+0039) is already defined more than once on the keyboard (on VK_9, ShiftState 'Ctl+Alt' and VK_9, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_A, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: ; (U+003b) is already defined more than once on the keyboard (on VK_B, ShiftState 'Shift' and VK_B, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_B, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: . (U+002e) is already defined more than once on the keyboard (on VK_C, ShiftState 'Shift' and VK_C, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_C, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_D, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_E, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_F, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: * (U+002a) is already defined more than once on the keyboard (on VK_G, ShiftState 'Ctl+Alt' and VK_8, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_G, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_H, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: 2 (U+0032) is already defined more than once on the keyboard (on VK_I, ShiftState 'SGCAPS' and VK_2, ShiftState 'Base').
+    WARNING: ( (U+0028) is already defined more than once on the keyboard (on VK_J, ShiftState 'Ctl+Alt' and VK_9, ShiftState 'Shift').
+    WARNING: 4 (U+0034) is already defined more than once on the keyboard (on VK_J, ShiftState 'SGCAPS' and VK_4, ShiftState 'Base').
+    WARNING: ) (U+0029) is already defined more than once on the keyboard (on VK_K, ShiftState 'Ctl+Alt' and VK_0, ShiftState 'Shift').
+    WARNING: 5 (U+0035) is already defined more than once on the keyboard (on VK_K, ShiftState 'SGCAPS' and VK_5, ShiftState 'Base').
+    WARNING: 6 (U+0036) is already defined more than once on the keyboard (on VK_L, ShiftState 'SGCAPS' and VK_6, ShiftState 'Base').
+    WARNING: % (U+0025) is already defined more than once on the keyboard (on VK_M, ShiftState 'Ctl+Alt' and VK_5, ShiftState 'Shift').
+    WARNING: 7 (U+0037) is already defined more than once on the keyboard (on VK_M, ShiftState 'SGCAPS' and VK_7, ShiftState 'Base').
+    WARNING: 0 (U+0030) is already defined more than once on the keyboard (on VK_N, ShiftState 'SGCAPS' and VK_0, ShiftState 'Base').
+    WARNING: 3 (U+0033) is already defined more than once on the keyboard (on VK_O, ShiftState 'SGCAPS' and VK_3, ShiftState 'Base').
+    WARNING: & (U+0026) is already defined more than once on the keyboard (on VK_P, ShiftState 'Ctl+Alt' and VK_7, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_P, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_Q, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_R, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_S, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: ^ (U+005e) is already defined more than once on the keyboard (on VK_T, ShiftState 'Ctl+Alt' and VK_6, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_T, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: 1 (U+0031) is already defined more than once on the keyboard (on VK_U, ShiftState 'SGCAPS' and VK_1, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_V, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_W, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: $ (U+0024) is already defined more than once on the keyboard (on VK_X, ShiftState 'Ctl+Alt' and VK_4, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_X, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: ! (U+0021) is already defined more than once on the keyboard (on VK_Y, ShiftState 'Ctl+Alt' and VK_1, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_Y, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: , (U+002c) is already defined more than once on the keyboard (on VK_Z, ShiftState 'Shift' and VK_Z, ShiftState 'Base').
+    WARNING: # (U+0023) is already defined more than once on the keyboard (on VK_Z, ShiftState 'Ctl+Alt' and VK_3, ShiftState 'Shift').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_Z, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING:   (U+0020) is already defined more than once on the keyboard (on VK_OEM_1, ShiftState 'SGCAPS' and VK_SPACE, ShiftState 'Base').
+    WARNING: + (U+002b) is already defined more than once on the keyboard (on VK_OEM_PLUS, ShiftState 'Shift' and VK_N, ShiftState 'Ctl+Alt').
+    WARNING: 8 (U+0038) is already defined more than once on the keyboard (on VK_OEM_COMMA, ShiftState 'SGCAPS' and VK_8, ShiftState 'Base').
+    WARNING: _ (U+005f) is already defined more than once on the keyboard (on VK_OEM_MINUS, ShiftState 'Shift' and VK_W, ShiftState 'Ctl+Alt').
+    WARNING: @ (U+0040) is already defined more than once on the keyboard (on VK_OEM_PERIOD, ShiftState 'Ctl+Alt' and VK_2, ShiftState 'Shift').
+    WARNING: 9 (U+0039) is already defined more than once on the keyboard (on VK_OEM_PERIOD, ShiftState 'SGCAPS' and VK_9, ShiftState 'Base').
+    WARNING: ~ (U+007e) is already defined more than once on the keyboard (on VK_OEM_3, ShiftState 'Shift' and VK_V, ShiftState 'Ctl+Alt').
+    WARNING: 'VK_A' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_D' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_E' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_F' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_G' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_H' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_P' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_R' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_S' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_T' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_V' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_X' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_Y' has both CapsLock and SGCaps defined; one should be removed.
+    WARNING: 'VK_OEM_1' has both CapsLock and SGCaps defined; one should be removed.
