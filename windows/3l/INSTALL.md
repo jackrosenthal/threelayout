@@ -27,5 +27,5 @@ To uninstall:
 
 Notes:
 1. MKLC does not support extra modifier keys, so I have set the symbols layer as AltGr, and the cursor layer as Caps lock. This means that the cursor layer will toggle rather than just hold.
-2. SharpKeys is used to rebind the keys that cannot be changed using MKLC. You can do it yoursef using regedit, under HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout
+2. SharpKeys is used to rebind the keys that cannot be changed using MKLC. You can do it yoursef using regedit, under HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout\Scancode map
 3. Because MKLC only supports rebinding characters, and SharpKeys does not support modifiers, cursor keys do not work. They will insert a space instead. The numpad does work.
