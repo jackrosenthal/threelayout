@@ -1,15 +1,15 @@
 ``3l`` - A better modifier based keyboard layout
 ================================================
 
-**Three Layout**, more commonly called ``3l``, is an `alternative keyboard
-layout`_ designed for efficently typing not only English, but also computer
-programs.  ``3l`` is modifier based, so many of the keys which would normally
-be accesed on the top row (with numbers on QWERTY) can be accessed on the main
-part of the keyboard.
+**Three Layout**, more commonly called ``3l``, is an `alternative
+keyboard layout`_ designed for efficiently typing both English text
+and computer programs. ``3l`` is modifier based, so many of the keys
+which would normallybe accessed on the top row (with numbers on
+QWERTY) can be accessed on the main part of the keyboard.
 
 .. _`alternative keyboard layout`: https://en.wikipedia.org/wiki/Keyboard_layout#Non-QWERTY-based_Latin-script_keyboard_layouts
 
-To give you an idea on how much this layout can improve your typing efficency,
+To give you an idea on how much this layout can improve your typing efficiency,
 compare typing distance of George Orwell's *Nineteen Eighty-Four* to other
 common layouts:
 
@@ -43,8 +43,8 @@ using before), or it will return back to normal next time you log out and back
 in.
 
 On Windows, compile and run the provided AHK script. Your keyboard layout will
-return to normal when the script exits (in system tray) or you press both
-``Alt`` keys at the same time.
+return to normal when the script exits (in system tray). You may also
+be interested in `toggling the layout`_.
 
 Installation
 ------------
@@ -94,6 +94,11 @@ Windows
 ~~~~~~~
 
 Place the AHK script in your "Startup" folder.
+
+.. _toggling the layout:
+
+To toggle between ``3l`` and your system layout (e.g., QWERTY), press
+both ``Alt`` keys at the same time.
 
 Layout Mods
 -----------
