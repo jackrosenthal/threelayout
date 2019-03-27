@@ -4,7 +4,7 @@
 **Three Layout**, more commonly called ``3l``, is an `alternative
 keyboard layout`_ designed for efficiently typing both English text
 and computer programs. ``3l`` is modifier based, so many of the keys
-which would normallybe accessed on the top row (with numbers on
+which would normally be accessed on the top row (with numbers on
 QWERTY) can be accessed on the main part of the keyboard.
 
 .. _`alternative keyboard layout`: https://en.wikipedia.org/wiki/Keyboard_layout#Non-QWERTY-based_Latin-script_keyboard_layouts
@@ -35,6 +35,8 @@ See the ``docs`` directory for more images of the layout.
 
 Testing the layout without installation
 ---------------------------------------
+
+.. _applying the layout temporarily:
 
 On Linux using X, you can run ``linux/xmodmap/test_layout.sh`` from the base of
 this repository to temporarily set your keyboard layout. To undo this, you can
@@ -126,6 +128,94 @@ Many Chromebook computers have a ``Super_L`` key that acts as a "search" key in
 Chrome OS where the Caps Lock key should be. As such, when using alternative
 layouts that makes good use of this key, the good use is lost. This mod makes
 the ``Super_L`` act as ``Tab`` for these systems.
+
+Frequently Asked Questions
+--------------------------
+
+**What happens if I have to use someone else's computer and all
+they've got is QWERTY?**
+
+Short-term use of someone's computer with QWERTY is usually a
+non-concern. Since most keyboards have the layout printed on the
+key caps, most users of ``3l`` don't have any issues surviving.
+
+For long-term use (such as on a shared machine, or a school lab
+computer), `applying the layout temporarily`_ usually only takes a few
+minutes to setup and can help relieve some pains.
+
+**What happens if someone has to temporarily use my computer?**
+
+For Windows, see `toggling the layout`_.
+
+For Linux, most window managers provide a convenient way to toggle
+between layouts. If your window manager does not have that, just bind
+a key to run ``setxkbmap``.
+
+If anyone has some Mac OS X tips, please submit a PR. (I presume
+Karabiner makes this pretty easy.)
+
+**How should I start learning?**
+
+The `Klavaro Typing Tutor`_ is configurable to multiple layouts (you
+can put in ``3l`` as a custom layout) and is an excellent option for
+learning. You should start with the basic skills courses before the
+speed-typing courses.
+
+.. _Klavaro Typing Tutor: http://klavaro.sourceforge.net/
+
+Most users will recommend going `cold turkey`_ from your old layout
+when just starting to learn. This will help you focus on your
+learning, and `learning survival QWERTY`_ later is always an option.
+
+.. _cold turkey: https://en.wikipedia.org/wiki/Cold_turkey
+
+**How long does it take to learn?**
+
+Most users are able to accomplish survival typing skills (>20 WPM)
+within one week of starting to learn. Focusing on accuracy over speed
+during your first few weeks of learning will help you be successful,
+and you'll pick up the speed in the long run.
+
+**Will I forget QWERTY?**
+
+.. _learning survival QWERTY:
+
+Most users seem to indicate that they lost some QWERTY skills while
+re-training their brain to ``3l``, but were eventually able to recover
+enough skills to survive in the long term.
+
+**Will I type faster than on my old layout?**
+
+Maybe. While most users report they are able to type faster than they
+could on QWERTY, the primary benefit of trying an alternative layout
+is in typing comfort and health. Many users enjoy reduced repetitive
+motions, and find typing longer hours less difficult.
+
+**Will I have to re-configure my text editor for the new layout?**
+
+``3l`` was designed partly with keeping vanilla Vi-style keybindings
+somewhat sane in mind. If you find yourself using many systems and
+don't want to have to keep configuration in sync, you'll appreciate
+how easy it is to use Vi or Vim style editors with the default
+configuration. I personally use Emacs with `Evil mode`_, and haven't
+had any issues keeping most of the Vi-style bindings in their standard
+configuration. That being said, if you find that some sort of
+rebinding with respect to ``3l`` helps you, I'm curious to see what
+you've done. Maybe we can drop this in some sort of ``contrib/``
+directory.
+
+.. _Evil mode: https://www.emacswiki.org/emacs/Evil
+
+I'm curious to hear if and what people do to work with ``3l`` and
+non-Vi editors. Drop me an email or a PR :)
+
+**Is the symbols layer designed for a specific programming language?**
+
+The symbols layer is mostly derived from the Neo 2.0 keyboard layout,
+and to the best of my knowledge, was not designed with any specific
+programming language in mind. I've used it with everything from
+C-style languages, to HTML, to Haskell, to Python, and Lisp and have
+found that most every language benefits from the symbols layer.
 
 Users' Registry
 ---------------
