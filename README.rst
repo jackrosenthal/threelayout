@@ -217,6 +217,22 @@ programming language in mind. I've used it with everything from
 C-style languages, to HTML, to Haskell, to Python, and Lisp and have
 found that most every language benefits from the symbols layer.
 
+**What about using the layout on mobile?**
+
+Modern mobile keyboards (such as Gboard_) tend to use machine learning
+algorithms for predictive input and autocorrect, and these algorithms
+were trained on QWERTY users. In addition, QWERTY's design of common
+bigraphs spaced far apart is incidentally a helpful design when using
+swipe typing. For these reasons, nobody has bothered with making a
+moblie version.
+
+.. _Gboard: https://en.wikipedia.org/wiki/Gboard
+
+However, an Android or iOS version of the layout could potentially be
+useful for tablet typing. If someone with expertise in this domain
+wanted to implement this and submit a PR, that would be very much
+appreciated.
+
 Users' Registry
 ---------------
 
