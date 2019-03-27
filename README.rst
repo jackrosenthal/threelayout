@@ -246,5 +246,16 @@ __ https://github.com/daichij
 __ https://github.com/jnunez101
 __ https://github.com/liamwarfield
 
-
 If you learn the layout, feel free to submit a PR with your name added.
+
+There is an email list for general chat about the layout. Please
+`subscribe`__ to the list. You can send mail to the list using the
+address::
+
+  3l-users@googlegroups.com
+
+You do not have to be a member to post, so feel free to reach out on
+this list with questions about the layout, even if you're not a user
+yet.
+
+__ https://groups.google.com/forum/#!forum/3l-users
