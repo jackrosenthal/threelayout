@@ -200,7 +200,6 @@ xkb_symbols "basic" {
     // --------------------------------------------------------------
     key.type[Group1] = "EIGHT_LEVEL";
     key <SPCE> {
-        //[ space,                   space,                   space,                   space,                 space,                   space               ]
-        [ space ]
+        [ space,                   space,                   space,                   space,                 space,                   space               ]
     };
 };
