@@ -115,7 +115,7 @@ xkb_symbols "basic" {
 
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AC01> {
-        [ o,                       O,                       slash,                   NoSymbol,              Home,                    NoSymbol            ]
+        [ o,                       O,                       slash,                   NoSymbol,              Home,                    Home                ]
     };
     key <AC02> {
         [ h,                       H,                       minus,                   Greek_iota,            Left,                    Left                ]
@@ -127,7 +127,7 @@ xkb_symbols "basic" {
         [ a,                       A,                       braceright,              Greek_epsilon,         Right,                   Right               ]
     };
     key <AC05> {
-        [ i,                       I,                       asterisk,                Greek_omicron,         End,                     NoSymbol            ]
+        [ i,                       I,                       asterisk,                Greek_omicron,         End,                     End                 ]
     };
     key <AC06> {
         [ d,                       D,                       question,                Greek_sigma,           period,                  NoSymbol            ]
