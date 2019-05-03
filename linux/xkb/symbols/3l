@@ -65,7 +65,7 @@ xkb_symbols "basic" {
     // Top row
     // --------------------------------------------------------------
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
-    key <AD01> { 
+    key <AD01> {
         [ q,                       Q,                       quotedbl,                Greek_xi,              Prior,                   NoSymbol            ]
     };
     key <AD02> {
@@ -156,7 +156,7 @@ xkb_symbols "basic" {
     key <AB01> {
         [ comma,                   exclam,                  numbersign,              NoSymbol,              comma,                   NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AB02> {
         [ m,                       M,                       dollar,                  U03F5,                 NoSymbol,                NoSymbol            ]
@@ -167,12 +167,12 @@ xkb_symbols "basic" {
     key <AB04> {
         [ j,                       J,                       asciitilde,              Greek_pi,              bracketright,            NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL";
     key <AB05> {
         [ semicolon,               semicolon,               grave,                   Greek_zeta,            NoSymbol,                NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AB06> {
         [ g,                       G,                       plus,                    Greek_beta,            0,                       NoSymbol            ]
