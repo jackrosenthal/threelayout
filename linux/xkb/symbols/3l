@@ -9,7 +9,6 @@ xkb_symbols "basic" {
     // Tab as Escape
     // --------------------------------------------------------------
     key  <TAB> {
-        //[ Escape,                  Escape,                  Escape,                  Escape,                Escape,                Escape               ]
         [ Escape ]
     };
 
@@ -17,7 +16,6 @@ xkb_symbols "basic" {
     // Number row
     // --------------------------------------------------------------
     key <TLDE> {
-        //[ NoSymbol,                NoSymbol,                NoSymbol,                NoSymbol,              NoSymbol,              NoSymbol              ]
         [ NoSymbol ]
     };
 
