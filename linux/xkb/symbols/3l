@@ -1,6 +1,8 @@
+// Implementation of the 3l keyboard layout
+// See https://github.com/jackrosenthal/threelayout for specification
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
-    name[Group1] = "3l";
+    name[Group1] = "English (3l)";
 
     key.type[Group1] = "ONE_LEVEL";
     key <TAB> { [ Escape ] };
@@ -63,10 +65,14 @@ xkb_symbols "basic" {
     include "level5(modifier_mapping)"
 };
 
+// Chromebooks typically have the key which is normally in the caps
+// lock position mapped to keycode 133 (LWIN). For 3l, it is critical
+// that the key in this positon correspond to tab, so there is a
+// variant available for chromebook hardware.
 partial modifier_keys
 xkb_symbols "cros" {
     include "3l(basic)"
-    name[Group1] = "3l chromebook";
+    name[Group1] = "English (3l, chromebook)";
     key <LWIN> {
         type[Group1] = "ONE_LEVEL",
         symbols[Group1] = [ Tab ]
