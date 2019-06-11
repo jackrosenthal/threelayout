@@ -47,7 +47,7 @@ On Linux (using X or Wayland):
 * **If you have xkeyboard-config 2.26 or earlier:** clone this
   repository and run this command::
 
-    setxkbmap us 3l -print | xkbcomp -Ilinux/xkb - $DISPLAY
+    setxkbmap 3l -print | xkbcomp -Ilinux/xkb - $DISPLAY
 
 To return to QWERTY keyboard layout, type ``setxkbmap us``.
 
