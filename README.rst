@@ -38,11 +38,18 @@ Testing the layout without installation
 
 .. _applying the layout temporarily:
 
-On Linux using X, you can run ``linux/xmodmap/test_layout.sh`` from the base of
-this repository to temporarily set your keyboard layout. To undo this, you can
-either figure out how to type ``setxkbmap us`` (or whatever layout you were
-using before), or it will return back to normal next time you log out and back
-in.
+On Linux (using X or Wayland):
+
+* **If you have xkeyboard-config 2.27 or later:** ``3l`` is already
+  installed on your system. Just type ``setxkbmap us 3l`` or use your
+  window manager's settings to adjust your layout.
+
+* **If you have xkeyboard-config 2.26 or earlier:** clone this
+  repository and run this command::
+
+    setxkbmap us 3l -print | xkbcomp -Ilinux/xkb - $DISPLAY
+
+To return to QWERTY keyboard layout, type ``setxkbmap us``.
 
 On Windows, compile and run the provided AHK script. Your keyboard layout will
 return to normal when the script exits (in system tray). You may also
@@ -54,31 +61,33 @@ Installation
 Linux
 ~~~~~
 
-Place the ``linux/xkb/symbols/3l`` file in your system's ``symbols`` directory
-[1]_, then either:
+To set ``3l`` as the *default keyboard layout* for your system, add a
+section to your X11 configuration::
 
-1. Run ``setxkbmap 3l`` to set the layout *temporarily*.
-2. Or, to set ``3l`` as the *default keyboard layout* for your system, add a
-   section to your X11 configuration::
+    $ cat /etc/X11/xorg.conf.d/99-keyboard.conf
+    Section "InputClass"
+            Identifier "system-keyboard"
+            MatchIsKeyboard "on"
+            Option "XkbLayout" "us"
+            Option "XkbVariant" "3l"
+    EndSection
 
-       $ cat /etc/X11/xorg.conf.d/99-keyboard.conf
-       Section "InputClass"
-               Identifier "system-keyboard"
-               MatchIsKeyboard "on"
-               Option "XkbLayout" "3l"
-       EndSection
+``systemd`` has the ``localectl`` utility that you may optionally use
+to maintain this configuration file.
 
-   ``systemd`` has the ``localectl`` utility that you may optionally use to
-   maintain this configuration file.
+.. admonition:: If you don't have xkeyboard-config 2.27 or later
 
-There may also be a package for ``3l`` in your distribution. There is at least a
-package in the Arch Linux AUR available under `threelayout`_.
+   Place the ``linux/xkb/symbols/3l`` file in your system's
+   ``symbols`` directory. This is typically something like
+   ``/usr/share/X11/xkb/symbols``. You'll need the configuration to
+   look a little different::
 
-To create a console mapping from the ``xkb`` symbols file, you can use the
-``ckbcomp`` utility.
-
-.. [1] This is typically something like ``/usr/share/X11/xkb/symbols``.
-.. _`threelayout`: https://aur.archlinux.org/packages/threelayout
+        $ cat /etc/X11/xorg.conf.d/99-keyboard.conf
+        Section "InputClass"
+                Identifier "system-keyboard"
+                MatchIsKeyboard "on"
+                Option "XkbLayout" "3l"
+        EndSection
 
 Mac OS X [2]_
 ~~~~~~~~~~~~~
@@ -101,33 +110,6 @@ Place the AHK script in your "Startup" folder.
 
 To toggle between ``3l`` and your system layout (e.g., QWERTY), press
 both ``Alt`` keys at the same time.
-
-Layout Mods
------------
-
-There are a number of modifications that can be preformed to the layout.
-Currently, these are only supported on systems with ``xmodmap`` (Sorry Windows
-and Mac OS X users).
-
-To apply a mod, run ``xmodmap ~/path/to/git/repo/linux/xmodmap/mod-XXX`` at
-login, where ``XXX`` is the name of the mod you wish to apply.
-
-Users are encouraged to submit the mods they find useful in a pull request.
-
-WhackyInsert
-~~~~~~~~~~~~
-
-This mod gives you an ``Insert`` key on QWERTY's Whack/Pipe key (above enter).
-Useful on some notebooks which do not have an ``Insert`` key, but also
-convenient on desktop keyboards.
-
-ChromebookSuperTab
-~~~~~~~~~~~~~~~~~~
-
-Many Chromebook computers have a ``Super_L`` key that acts as a "search" key in
-Chrome OS where the Caps Lock key should be. As such, when using alternative
-layouts that makes good use of this key, the good use is lost. This mod makes
-the ``Super_L`` act as ``Tab`` for these systems.
 
 Frequently Asked Questions
 --------------------------
