@@ -233,6 +233,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Daichi Jameson`__ (who learned ``3l`` in the Fall of 2018)
 * `Jesus Nunez`__ (who learned ``3l`` in the Fall of 2018)
 * `Liam Warfield`__ (who learned ``3l`` in the Spring of 2019)
+* `Sam Warfield`__ (who learned ``3l`` in the Summer of 2019)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -243,6 +244,7 @@ __ https://github.com/edwargix
 __ https://github.com/daichij
 __ https://github.com/jnunez101
 __ https://github.com/liamwarfield
+__ https://github.com/Warfields
 
 If you learn the layout, feel free to submit a PR with your name added.
 
