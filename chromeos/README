@@ -1,0 +1,16 @@
+The easiest way to use 3L on ChromeOS is to install the extension from
+the Chrome Web Store:
+
+https://chrome.google.com/webstore/detail/3l-keyboard-layout/bjapeaembccmkkkknjhjpjpajhdcoihh
+
+If you wish to install/modify the sources:
+
+1. Go to chrome://extensions. Use the toggle in the top right to
+   enable "Developer mode."
+
+2. Select "Load unpacked" and choose the "src" directory in this
+   directory.
+
+3. ...
+
+4. Profit!
