@@ -78,3 +78,109 @@ xkb_symbols "cros" {
         symbols[Group1] = [ Tab ]
     };
 };
+
+
+// This is an alternative implementation, inspired by the original.
+// The main differences are:
+// 1. This layout implements just what appears in
+// https://github.com/jackrosenthal/threelayout/blob/master/docs/standard_three.png
+// (the original defines but does not document a bunch of greek letters, etc.)
+// 2. This layout uses CapsLock as the Cur modifier.
+// 3. This layout uses the Shift keys as the Sym modifiers.
+// 4. This layout uses the key just to the left of Enter
+// (the Sym key in the original layout) as "a funny kind of CapsLock":
+// - pressing it once capitalizes the next character
+// - pressing it twice acts as a regular CapsLock
+// - instead of double press, one can hold down either CapsLock (aka Cur)
+// or Shift (aka Sym) while pressing the "funny CapsLock" to get the
+// "regular CapsLock" behaviour
+// 5. In this layout, Escape is on Cur-Space as well as on Sym-Space
+partial alphanumeric_keys modifier_keys
+xkb_symbols "alt" {
+    name[Group1] = "English (3l alternative)";
+
+    key.type[Group1] = "ONE_LEVEL";
+    // Top row numbers - not part of spec, but given for convenience
+    key <AE01> { [ 1 ] };
+    key <AE02> { [ 2 ] };
+    key <AE03> { [ 3 ] };
+    key <AE04> { [ 4 ] };
+    key <AE05> { [ 5 ] };
+    key <AE06> { [ 6 ] };
+    key <AE07> { [ 7 ] };
+    key <AE08> { [ 8 ] };
+    key <AE09> { [ 9 ] };
+    key <AE10> { [ 0 ] };
+
+    // Main keys
+    // Order of mods (defined by FOUR_LEVEL_ALPHABETIC) is:
+    //           [ None,      Shift,     Sym,          Shift+Sym]
+    key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
+
+    // Second row
+    key <AD01> { [ q,  Q, quotedbl,       Prior     ] };
+    key <AD02> { [ f,  F, underscore,     BackSpace ] };
+    key <AD03> { [ u,  U, bracketleft,    Up        ] };
+    key <AD04> { [ y,  Y, bracketright,   Delete    ] };
+    key <AD05> { [ z,  Z, asciicircum,    Next      ] };
+    key <AD06> { [ x,  X, exclam,         NoSymbol  ] };
+    key <AD07> { [ k,  K, less,           1         ] };
+    key <AD08> { [ c,  C, greater,        2         ] };
+    key <AD09> { [ w,  W, equal,          3         ] };
+    key <AD10> { [ b,  B, ampersand,      NoSymbol  ] };
+
+    // Home row
+    key <AC01> { [ o,  O, slash,          Home    ] };
+    key <AC02> { [ h,  H, minus,          Left    ] };
+    key <AC03> { [ e,  E, braceleft,      Down    ] };
+    key <AC04> { [ a,  A, braceright,     Right   ] };
+    key <AC05> { [ i,  I, asterisk,       End     ] };
+    key <AC06> { [ d,  D, question,       period  ] };
+    key <AC07> { [ r,  R, parenleft,      4       ] };
+    key <AC08> { [ t,  T, parenright,     5       ] };
+    key <AC09> { [ n,  N, apostrophe,     6       ] };
+    key <AC10> { [ s,  S, colon,          NoSymbol] };
+
+    // Bottom row
+    key <AB01> { [ comma,        NoSymbol, numbersign,  slash    ] };
+    key <AB02> { [ m,            M,        dollar,      asterisk ] };
+    key <AB03> { [ period,       NoSymbol, bar,         minus    ] };
+    key <AB04> { [ j,            J,        asciitilde,  plus     ] };
+    key <AB05> { [ semicolon,    NoSymbol, grave,       comma    ] };
+    key <AB06> { [ g,            G,        plus,        0        ] };
+    key <AB07> { [ l,            L,        percent,     7        ] };
+    key <AB08> { [ p,            P,        backslash,   8        ] };
+    key <AB09> { [ v,            V,        at,          9        ] };
+
+
+    key <SPCE> { [ space, space, Escape, Escape ] };
+
+    // Cur Modifier
+    key <CAPS> {
+        symbols[Group1] = [NoSymbol, NoSymbol, NoSymbol, NoSymbol],
+	actions [Group1] = [LatchMods(modifiers=Lock+LevelThree),
+	                    NoAction(), NoAction(), NoAction()]
+    };
+
+    key <LFSH> {
+                 symbols[Group1] = [NoSymbol, NoSymbol, NoSymbol],
+                 actions[Group1] = [LatchMods(modifiers=LevelThree),
+		                    NoAction(), NoAction(), NoAction()]
+    };
+
+
+    key <RTSH> {
+                 symbols[Group1] = [NoSymbol, NoSymbol, NoSymbol, NoSymbol],
+                 actions [Group1] = [LatchMods(modifiers=LevelThree),
+		                     NoAction(), NoAction(), NoAction()]
+    };
+
+    // "Caps Latch"/Caps Lock
+    key <AC11> {
+               symbols[Group1] = [NoSymbol, NoSymbol, NoSymbol, Escape],
+	       actions[Group1] = [LatchMods(modifiers=Lock,clearLocks),
+	                          LockMods(modifiers=Lock),
+				  LockMods(modifiers=Lock),
+				  LockMods(modifiers=Lock)]
+    };
+};
