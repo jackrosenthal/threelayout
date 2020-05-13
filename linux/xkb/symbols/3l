@@ -83,7 +83,7 @@ xkb_symbols "cros" {
 // tab back to tab.
 partial modifier_keys
 xkb_symbols "3l-emacs" {
-    include "us(3l)"
+    include "3l(basic)"
     name[Group1] = "English (3l, emacs)";
 
     key <TAB> { [ Tab ] };
