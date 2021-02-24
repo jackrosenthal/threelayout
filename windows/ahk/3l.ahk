@@ -10,15 +10,37 @@ SC035 & SC010::Send {PgUp}
 SC011::f
 +SC011::F
 SC028 & SC011::Send {_}
-SC035 & SC011::Send {Backspace}
+SC035 & SC011::
+    if (GetKeyState("CTRL"))  {
+        Send ^{Backspace}
+    } else {
+        Send {Backspace}
+    }
+return
 SC012::u
 +SC012::U
 SC028 & SC012::Send {[}
-SC035 & SC012::Send {Up}
+SC035 & SC012::
+    if (GetKeyState("CTRL") && !GetKeyState("SHIFT"))  {
+        Send ^{Up}
+    } else if (!GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send +{Up}
+    } else if (GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send ^+{Up}
+    } else {
+        Send {Up}
+    }
+return
 SC013::y
 +SC013::Y
 SC028 & SC013::Send {]}
-SC035 & SC013::Send {Delete}
+SC035 & SC013::
+    if (GetKeyState("CTRL"))  {
+        Send ^{Delete}
+    } else {
+        Send {Delete}
+    }
+return
 SC014::z
 +SC014::Z
 SC028 & SC014::Send {^}
@@ -45,24 +67,66 @@ SC028 & SC019::Send {&}
 SC03A::Tab
 SC01E::o
 +SC01E::O
-SC035 & SC01E::Send {Home}
+SC035 & SC01E::
+    if (GetKeyState("SHIFT"))  {
+        Send +{Home}
+    } else {
+        Send {Home}
+    }
+return
 SC028 & SC01E::Send {/}
 SC01F::h
 +SC01F::H
 SC028 & SC01F::Send {-}
-SC035 & SC01F::Send {Left}
+SC035 & SC01F::
+    if (GetKeyState("CTRL") && !GetKeyState("SHIFT"))  {
+        Send ^{Left}
+    } else if (!GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send +{Left}
+    } else if (GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send ^+{Left}
+    } else {
+        Send {Left}
+    }
+return
 SC020::e
 +SC020::E
 SC028 & SC020::Send {{}
-SC035 & SC020::Send {Down}
+SC035 & SC020::
+    if (GetKeyState("CTRL") && !GetKeyState("SHIFT"))  {
+        Send ^{Down}
+    } else if (!GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send +{Down}
+    } else if (GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send ^+{Down}
+    } else {
+        Send {Down}
+    }
+return
 SC021::a
 +SC021::A
 SC028 & SC021::Send {}}
-SC035 & SC021::Send {Right}
+SC035 & SC021::
+    if (GetKeyState("CTRL") && !GetKeyState("SHIFT"))  {
+        Send ^{Right}
+    } else if (!GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send +{Right}
+    } else if (GetKeyState("CTRL") && GetKeyState("SHIFT"))  {
+        Send ^+{Right}
+    } else {
+        Send {Right}
+    }
+return
 SC022::i
 +SC022::I
 SC028 & SC022::Send {*}
-SC035 & SC022::Send {End}
+SC035 & SC022::
+    if (GetKeyState("SHIFT"))  {
+        Send +{End}
+    } else {
+        Send {End}
+    }
+return
 SC023::d
 +SC023::D
 SC028 & SC023::Send {?}

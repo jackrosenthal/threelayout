@@ -236,6 +236,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Sam Warfield`__ (who learned ``3l`` in the Summer of 2019)
 * `Sam Sartor`__ (who learned ``3l`` in the Summer of 2019)
 * `Peter Rosenthal`__ (who learned ``3l`` in the Spring of 2020)
+* `Sean Gillespie`__ (who learned ``3l`` in the Spring of 2020)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -249,6 +250,7 @@ __ https://github.com/liamwarfield
 __ https://github.com/Warfields
 __ https://samsartor.com/
 __ https://github.com/peterrosenthal
+__ https://github.com/sgillespie
 
 If you learn the layout, feel free to submit a PR with your name added.
 
