@@ -1,0 +1,29 @@
+{
+  "name": "3l Keyboard Layout",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Support for the 3l keyboard layout on Chrome OS.",
+  "permissions": [
+    "input"
+  ],
+  "background": {
+    "scripts": ["search_key_fix.js"]
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "input_components": [
+    {
+      "name": "3l",
+      "type": "ime",
+      "id": "threelayout",
+      "description": "https://github.com/jackrosenthal/threelayout",
+      "language": "en-US",
+      "layouts": ["us(3l-cros)"]
+    }
+  ]
+}
