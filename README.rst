@@ -55,6 +55,8 @@ On Windows, compile and run the provided AHK script. Your keyboard layout will
 return to normal when the script exits (in system tray). You may also
 be interested in `toggling the layout`_.
 
+On 9front, copy the file ``9front/3l`` to ``/sys/lib/kbmap/3l``. You can use ``kbmap(1)`` to switch between layouts.
+
 Installation
 ------------
 
@@ -111,6 +113,23 @@ Place the AHK script in your "Startup" folder.
 To toggle between ``3l`` and your system layout (e.g., QWERTY), press
 both ``Alt`` keys at the same time.
 
+9front
+~~~~~~
+
+Copy the file ``9front/3l`` to ``/sys/lib/kbmap/3l``. You can toggle the layout with ``kbmap(1)``.
+
+To set the layout on boot, add it to your ``plan9.ini(8)``::
+
+        % 9fs 9fat
+        % cd /n/9fat
+        % cat plan9.ini
+          ...
+          kbmap=3l
+          ...
+        % unmount /n/9fat
+
+Don't forget to unmount before you reboot.
+
 Frequently Asked Questions
 --------------------------
 
@@ -135,6 +154,8 @@ a key to run ``setxkbmap``.
 
 If anyone has some Mac OS X tips, please submit a PR. (I presume
 Karabiner makes this pretty easy.)
+
+For 9front, use ``kbmap(1)`` to switch layouts.
 
 **How should I start learning?**
 
