@@ -121,14 +121,15 @@ Copy the file ``9front/3l`` to ``/sys/lib/kbmap/3l``. You can toggle the layout 
 To set the layout on boot, add it to your ``plan9.ini(8)``::
 
         % 9fs 9fat
-        % cd /n/9fat
-        % cat plan9.ini
+        % cat /n/9fat/plan9.ini
           ...
           kbmap=3l
           ...
         % unmount /n/9fat
 
-Don't forget to unmount before you reboot.
+Ensure that the file ends in a newline. You will also need to rebuild your kernel, following the instructions under `FQA 5`_. 
+
+.. _FQA 5: http://fqa.9front.org/fqa5.html
 
 Frequently Asked Questions
 --------------------------
