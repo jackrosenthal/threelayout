@@ -106,12 +106,29 @@ Mac OS X [2]_
 Windows
 ~~~~~~~
 
+There are two implementations of ``3l`` for Windows, a simple
+AutoHotkey_ script located in this repository, and the more advanced
+ReNeo_ also offers a configuration for ``3l``.  Depending on your
+needs, you may want to check out the ReNeo driver for advanced
+customization options.
+
+AutoHotkey
+^^^^^^^^^^
+
 Place the AHK script in your "Startup" folder.
 
 .. _toggling the layout:
 
 To toggle between ``3l`` and your system layout (e.g., QWERTY), press
 both ``Alt`` keys at the same time.
+
+ReNeo
+^^^^^
+
+See the ReNeo_ repository for install instructions.
+
+.. _AutoHotkey: https://www.autohotkey.com/
+.. _ReNeo: https://github.com/Rojetto/ReNeo
 
 9front
 ~~~~~~
