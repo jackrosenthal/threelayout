@@ -1,0 +1,10 @@
+image: archlinux
+packages:
+  - python
+  - python-docutils
+sources:
+  - https://github.com/jackrosenthal/threelayout
+tasks:
+  - compile-readme: |
+      cd threelayout
+      rst2html --exit-status=warning README.rst >/tmp/README.html
