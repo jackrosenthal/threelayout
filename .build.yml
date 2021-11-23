@@ -1,10 +1,34 @@
 image: archlinux
+repositories:
+  # https://todo.sr.ht/~sircmpwn/builds.sr.ht/260: need to hard-code mirror for multilib repo
+  multilib: "http://mirror.rackspace.com/archlinux/multilib/os/x86_64#c100346676634e80c940fb9e9c02ff419fecbe16"
 packages:
+  - libarchive
   - python
   - python-docutils
+  - wget
+  # AHK build dependencies
+  - upx
+  - wine
+  - wine-gecko
+  - wine-mono
+  - xorg-server-xvfb
 sources:
   - https://github.com/jackrosenthal/threelayout
 tasks:
   - compile-readme: |
       cd threelayout
       rst2html --exit-status=warning README.rst >/tmp/README.html
+  - compile-ahk: |
+      wget -q "https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.33.10.zip" -O ahk.zip
+      chksum="$(sha256sum ahk.zip | cut -d' ' -f1)"
+      [[ "${chksum}" == d25581597badcc5a5c0ffec68fcaf5dad6de18d14417aa39ec8ff4e938fca159 ]]
+      mkdir winbuild
+      cd winbuild
+      bsdtar xvf ~/ahk.zip
+      cd Compiler
+      cp ~/threelayout/windows/ahk/3l.ahk .
+      timeout -k 10 1m xvfb-run -a -d wine Ahk2Exe.exe /in 3l.ahk /out 3l.exe /base 'Unicode 32-bit.bin'
+      upx --best -o ~/3l.exe 3l.exe
+artifacts:
+  - 3l.exe
