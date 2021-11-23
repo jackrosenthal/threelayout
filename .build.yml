@@ -5,6 +5,7 @@ repositories:
 packages:
   - gzip
   - libarchive
+  - libxkbcommon
   - perl
   - python
   - python-docutils
@@ -33,6 +34,11 @@ tasks:
       cp ~/threelayout/windows/ahk/3l.ahk .
       timeout -k 10 1m xvfb-run -a -d wine Ahk2Exe.exe /in 3l.ahk /out 3l.exe /base 'Unicode 32-bit.bin'
       upx --best -o ~/3l.exe 3l.exe
+  - xkb-compile-keymap: |
+      cd threelayout
+      for variant in basic cros 3l-emacs; do
+        xkbcli compile-keymap --include-defaults --include linux/xkb --layout 3l --variant "${variant}" >/dev/null
+      done
   - compile-linux-console: |
       ~/console-setup/Keyboard/ckbcomp -I"${HOME}/threelayout/linux/xkb/symbols" 3l >~/3l.map
       gzip ~/3l.map
