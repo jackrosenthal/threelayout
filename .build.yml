@@ -3,13 +3,17 @@ repositories:
   # https://todo.sr.ht/~sircmpwn/builds.sr.ht/260: need to hard-code mirror for multilib repo
   multilib: "http://mirror.rackspace.com/archlinux/multilib/os/x86_64#c100346676634e80c940fb9e9c02ff419fecbe16"
 packages:
+  - bash
   - gzip
   - libarchive
   - libxkbcommon
   - perl
   - python
   - python-docutils
+  - rxvt-unicode
   - wget
+  - xdotool
+  - xorg-xkbcomp
   # AHK build dependencies
   - upx
   - wine
@@ -39,6 +43,9 @@ tasks:
       for variant in basic cros 3l-emacs; do
         xkbcli compile-keymap --include-defaults --include linux/xkb --layout 3l --variant "${variant}" >/dev/null
       done
+  - test-xkb-quick-brown-fox: |
+      cd threelayout
+      xvfb-run -a -d linux/xkb/quick_brown_fox.sh
   - compile-linux-console: |
       ~/console-setup/Keyboard/ckbcomp -I"${HOME}/threelayout/linux/xkb/symbols" 3l >~/3l.map
       gzip ~/3l.map
