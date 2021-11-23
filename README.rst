@@ -254,8 +254,33 @@ useful for tablet typing. If someone with expertise in this domain
 wanted to implement this and submit a PR, that would be very much
 appreciated.
 
+Community
+---------
+
+Matrix Room
+~~~~~~~~~~~
+
+Join our Matrix chat room at `#threelayout:ohea.xyz`_.
+
+.. _#threelayout:ohea.xyz: https://matrix.to/#/#threelayout:ohea.xyz
+
+Mailing List
+~~~~~~~~~~~~
+
+There is an email list for general chat about the layout. Please
+`subscribe`__ to the list. You can send mail to the list using the
+address::
+
+  3l-users@googlegroups.com
+
+You do not have to be a member to post, so feel free to reach out on
+this list with questions about the layout, even if you're not a user
+yet.
+
+__ https://groups.google.com/forum/#!forum/3l-users
+
 Users' Registry
----------------
+~~~~~~~~~~~~~~~
 
 This section lists people who have learned to type on ``3l``. Users who learn
 to type at least 15 WPM (that's what it takes to get past the initial learning
@@ -294,15 +319,3 @@ __ https://github.com/sgillespie
 __ https://github.com/hvod2000
 
 If you learn the layout, feel free to submit a PR with your name added.
-
-There is an email list for general chat about the layout. Please
-`subscribe`__ to the list. You can send mail to the list using the
-address::
-
-  3l-users@googlegroups.com
-
-You do not have to be a member to post, so feel free to reach out on
-this list with questions about the layout, even if you're not a user
-yet.
-
-__ https://groups.google.com/forum/#!forum/3l-users
