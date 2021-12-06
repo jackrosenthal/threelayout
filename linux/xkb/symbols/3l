@@ -56,7 +56,7 @@ xkb_symbols "basic" {
     key <AB02> { [ m,         M,         dollar,       Greek_mu,       asterisk,  NoSymbol,   U2194,    Greek_MU ] };
     key <AB03> { [ period,    period,    bar,          NoSymbol,       minus,     NoSymbol,   U21CE,    NoSymbol ] };
     key <AB04> { [ j,         J,         asciitilde,   Greek_SIGMA,    plus,      NoSymbol,   U21D4,    NoSymbol ] };
-    key <AB05> { [ semicolon, semicolon, grave,        NoSymbol,       comma,     NoSymbol,   U2282,    NoSymbol ] };
+    key <AB05> { [ colon,     semicolon, grave,        NoSymbol,       comma,     NoSymbol,   U2282,    NoSymbol ] };
     key <AB06> { [ g,         G,         plus,         Greek_gamma,    0,         NoSymbol,   U2229,    Greek_GAMMA ] };
     key <AB07> { [ l,         L,         percent,      Greek_lambda,   7,         parenleft,  U222A,    Greek_LAMBDA ] };
     key <AB08> { [ p,         P,         backslash,    Greek_pi,       8,         parenright, U2208,    Greek_PI ] };
