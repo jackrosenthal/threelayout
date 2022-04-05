@@ -144,7 +144,7 @@ To set the layout on boot, add it to your ``plan9.ini(8)``::
           ...
         % unmount /n/9fat
 
-Ensure that the file ends in a newline. You will also need to rebuild your kernel, following the instructions under `FQA 5`_. 
+Ensure that the file ends in a newline. You will also need to rebuild your kernel, following the instructions under `FQA 5`_.
 
 .. _FQA 5: http://fqa.9front.org/fqa5.html
 
@@ -302,6 +302,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Peter Rosenthal`__ (who learned ``3l`` in the Spring of 2020)
 * `Sean Gillespie`__ (who learned ``3l`` in the Spring of 2020)
 * `Uladzislau Khamkou`__ (who learned ``3l`` in the Fall of 2021)
+* `Samuel Clay`__ (who learned ``3l`` in the Spring of 2022)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -317,5 +318,6 @@ __ https://samsartor.com/
 __ https://github.com/peterrosenthal
 __ https://github.com/sgillespie
 __ https://github.com/hvod2000
+__ https://github.com/olivethepuffin
 
 If you learn the layout, feel free to submit a PR with your name added.
