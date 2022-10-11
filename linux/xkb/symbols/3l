@@ -34,8 +34,8 @@ xkb_symbols "basic" {
     key <AD04> { [ y,         Y,         bracketright, Greek_psi,      Delete,    Delete,     U21A6,    Greek_PSI ] };
     key <AD05> { [ z,         Z,         asciicircum,  Greek_zeta,     Next,      Next,       U21CF,    Greek_ZETA ] };
     key <AD06> { [ x,         X,         exclam,       Greek_xi,       NoSymbol,  NoSymbol,   U2260,    Greek_XI ] };
-    key <AD07> { [ k,         K,         less,         Greek_kappa,    1,         A,          U2A7D,    Greek_KAPPA ] };
-    key <AD08> { [ c,         C,         greater,      Greek_chi,      2,         B,          U2A7E,    Greek_CHI ] };
+    key <AD07> { [ k,         K,         less,         Greek_kappa,    1,         A,          U2264,    Greek_KAPPA ] };
+    key <AD08> { [ c,         C,         greater,      Greek_chi,      2,         B,          U2265,    Greek_CHI ] };
     key <AD09> { [ w,         W,         equal,        Greek_omega,    3,         C,          U2261,    Greek_OMEGA ] };
     key <AD10> { [ b,         B,         ampersand,    Greek_beta,     NoSymbol,  NoSymbol,   U2248,    Greek_BETA ] };
 
