@@ -303,6 +303,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Sean Gillespie`__ (who learned ``3l`` in the Spring of 2020)
 * `Uladzislau Khamkou`__ (who learned ``3l`` in the Fall of 2021)
 * `Samuel Clay`__ (who learned ``3l`` in the Spring of 2022)
+* `Liam Abell`__ (who learned ``3l`` in the Fall of 2022)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -319,5 +320,6 @@ __ https://github.com/peterrosenthal
 __ https://github.com/sgillespie
 __ https://github.com/hvod2000
 __ https://github.com/olivethepuffin
+__ https://github.com/labell36
 
 If you learn the layout, feel free to submit a PR with your name added.
