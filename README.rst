@@ -254,6 +254,18 @@ useful for tablet typing. If someone with expertise in this domain
 wanted to implement this and submit a PR, that would be very much
 appreciated.
 
+**Help, I'm using Gnome on Wayland and can't configure it to use 3l!**
+
+Some rarely used keyboard layout variants are not available by default when you
+use gnome, ``3l`` is one of them. To enable Gnome's visibility of the ``3l``
+variant run the following in your terminal.::
+    
+    $ gsettings set org.gnome.desktop.input-sources show-all-sources true
+
+Now ``3l`` will be available through the keyboard configuration UI
+
+`Gnome Documentation <https://help.gnome.org/users/gnome-help/stable/keyboard-layouts.html.en>`_
+
 Community
 ---------
 
