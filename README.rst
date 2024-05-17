@@ -318,6 +318,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Liam Abell`__ (who learned ``3l`` in the Fall of 2022)
 * `Byron Sharman`__ (who learned ``3l`` in the Spring of 2024)
 * `Ivan Abramov`__ (who learned ``3l`` in the Spring of 2024)
+* `Jason Robinson`__ (who learned ``3l`` in the Spring of 2024)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
