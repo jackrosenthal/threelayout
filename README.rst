@@ -338,5 +338,6 @@ __ https://github.com/olivethepuffin
 __ https://github.com/labell36
 __ https://github.com/b-sharman
 __ https://github.com/satur4te
+__ https://github.com/Jaso-N7
 
 If you learn the layout, feel free to submit a PR with your name added.
