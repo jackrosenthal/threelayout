@@ -259,7 +259,7 @@ appreciated.
 Some rarely used keyboard layout variants are not available by default when you
 use gnome, ``3l`` is one of them. To enable Gnome's visibility of the ``3l``
 variant run the following in your terminal.::
-    
+
     $ gsettings set org.gnome.desktop.input-sources show-all-sources true
 
 Now ``3l`` will be available through the keyboard configuration UI
@@ -319,6 +319,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Byron Sharman`__ (who learned ``3l`` in the Spring of 2024)
 * `Ivan Abramov`__ (who learned ``3l`` in the Spring of 2024)
 * `Jason Robinson`__ (who learned ``3l`` in the Spring of 2024)
+* `Logan Gartner`__ (who learned ``3l`` in the Spring of 2025)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -339,5 +340,6 @@ __ https://github.com/labell36
 __ https://github.com/b-sharman
 __ https://github.com/satur4te
 __ https://github.com/Jaso-N7
+__ https://github.com/logan2611
 
 If you learn the layout, feel free to submit a PR with your name added.
