@@ -320,6 +320,7 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Ivan Abramov`__ (who learned ``3l`` in the Spring of 2024)
 * `Jason Robinson`__ (who learned ``3l`` in the Spring of 2024)
 * `Logan Gartner`__ (who learned ``3l`` in the Spring of 2025)
+* `Jaron O'Grady`__ (who learned ``3l`` in the Spring of 2025)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -341,5 +342,6 @@ __ https://github.com/b-sharman
 __ https://github.com/satur4te
 __ https://github.com/Jaso-N7
 __ https://github.com/logan2611
+__ https://github.com/BobtheElf
 
 If you learn the layout, feel free to submit a PR with your name added.
